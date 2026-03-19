@@ -1,0 +1,7 @@
+[package]
+name = "rsetup"
+version = "0.1.0"
+entrypoint = "rsetup.typ"
+authors = ["James Bruce"]
+license = "none"
+description = "Now you can use Typst for your statistics homework instead of a QMD file"
