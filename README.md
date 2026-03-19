@@ -68,10 +68,10 @@ At the top of your .typ document, import the package:
       author: "Author"
     )
 
-``` r
-#Global Setup
-set.seed(123) #For Reproducability
-```
+    ``` r
+    #Global Setup
+    set.seed(123) #For Reproducability
+    ```
 
 ------------------------------------------------------------------------
 
