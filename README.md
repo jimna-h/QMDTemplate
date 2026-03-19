@@ -9,7 +9,9 @@ alternative to Quarto documents.
 ## Prerequisites
 
 1.  R
-2.  
+2.  Typst installed
+3.  PowerShell (Windows user)
+4.  VS Code (recommended but optional)
 
 ------------------------------------------------------------------------
 
