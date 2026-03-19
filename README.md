@@ -31,16 +31,10 @@ directory:
 
 3.  Run the following command to find the path of your Rscript.exe:
 
-```{=html}
-<!-- -->
-```
     Get-ChildItem -Path "C:\Program Files\R" -Filter "Rscript.exe" -Recurse -ErrorAction SilentlyContinue | Select-Object FullName
 
 4.  Open your PowerShell profile by typing:
 
-```{=html}
-<!-- -->
-```
     notepad $PROFILE
 
 in the terminal.
