@@ -12,7 +12,7 @@ knit_output <- file.path(base_path, paste0(base_name, ".knit.typ"))
 # 3. Configure knitr
 opts_chunk$set(
   dev = "png",
-  fig.path = file.path(base_path, "figure", base_name, "/"),
+  fig.path = paste0("figure/", base_name, "/"), 
   fig.show = "asis",
   comment = "" 
 )
