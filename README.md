@@ -9,9 +9,9 @@ alternative to Quarto documents.
 ## Prerequisites
 
 1.  R installed (https://cran.r-project.org/mirrors.html)
-2.  Typst installed
+2.  Typst installed (https://typst.app/open-source/#download)
 3.  PowerShell (Windows user)
-4.  VS Code (recommended but optional)
+4.  VS Code (recommended but optional: https://code.visualstudio.com/)
 
 ------------------------------------------------------------------------
 
