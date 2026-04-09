@@ -1,5 +1,9 @@
 library(knitr)
-knitr::opts_chunk$set(comment = "")
+knitr::opts_chunk$set(
+  message = FALSE, 
+  warning = FALSE,
+  comment = NA
+)
 
 # hook for the code source
 knit_hooks$set(source = function(x, options) {
