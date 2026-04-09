@@ -28,8 +28,8 @@ knit_hooks$set(source = function(x, options) {
 
 # hook for the console output
 knit_hooks$set(output = function(x, options) {
-  # Guard: If include is FALSE, or if the output is just whitespace/empty, return nothing
-  if (options$include == FALSE || trimws(x) == "") {
+  # Guard: Check for include, results: 'hide', and empty strings
+  if (isFALSE(options$include) || options$results == 'hide' || trimws(x) == "") {
     return("")
   }
 
